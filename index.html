@@ -19,6 +19,117 @@
 			border-radius: 150px;
 			box-shadow: 0px 0px 40px blueviolet;
 		}
+		.gayatri
+		{
+			text-shadow:0px 0px 10px pink;
+			font-size: 70px;
+		}
+		.greetings
+		{
+			color: grey;
+			font-variant: small-caps;
+			font-weight: bolder;
+		  font-size: 30px;
+		  text-shadow: 0px 0px 10px pink;
+		}
+		.btn
+		{
+			border: none;
+			height:;
+		}
+		.rsmbtn
+		{
+			color: black;
+			height: 70px;
+			width: 120px;
+			border: none;
+			font-size: 30px;
+			border-radius: 20px;
+			font-weight: bolder;
+			background-color: pink;
+			transition-duration: 2s;
+			font-style: italic;
+		}
+		.rsmbtn:hover
+		{
+			transform: scale(1.2);
+			background-color: white;
+			color: pink;
+			border: 2px solid pink;
+		}
+		.careerobj
+		{
+			width: 100%;
+			height: 350px;
+			background-color: whitesmoke;
+			margin-top: 30px;
+		}
+		.sections
+		{
+			color: pink;
+			font-weight: bolder;
+		}
+		.para
+		{
+			width:70;
+			font-size: 25px;
+			padding-top: 20px;
+			text-align: justify;
+		}
+		.skillssec
+		{
+			width: 100%;
+			height: 300px;
+			background-color: whitesmoke;
+		}
+		.skltbl
+		{
+			margin-top: 20px;
+		}
+		.skillsheading
+		{
+			color: orange;
+			font-weight: bolder;
+			font-size: 25px;
+			transition-duration: 4s;
+		}
+		.skillsheading:hover
+		{
+			text-decoration: underline 2px solid orange;
+		}
+		.skillsp
+		{
+			font-weight: bolder;
+			padding-top: 20px;
+			color: grey;
+		}
+		.Projects
+		{
+			width: 100%;
+			height: 900px;
+			background-color: whitesmoke;
+			margin-top: 50px;
+		}
+		.card-img-top
+		{
+			height: 250px !important;
+		}
+		.card
+		{
+			transition-duration: 1s;
+			width: 500px;
+			padding-top: 20px;
+		}
+		.card:hover
+		{
+			box-shadow: 0px 0px 20px black;
+		}
+		.Contact
+		{
+			width: 100%;
+			height: 550px;
+			background-color: whitesmoke;
+		}
 	</style>
 	<title>MY FIRST WEB APPLICATION</title>
 </head>
@@ -31,7 +142,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
@@ -48,18 +159,178 @@
         <a class="nav-link" href="#">Contact</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    
   </div>
 </nav>
 	</div>
 	<!-- navigation bar div closed -->
-	<div align="center">
-		<!-- image inserted below -->
-		<img src="https://media.istockphoto.com/id/856599656/photo/passport-picture-of-a-smiling-turkish-businesswoman.jpg?s=612x612&w=0&k=20&c=dgETy-9neViQs7SATDTOOa80QOhVFcLIomBFRxWVN_8=" class="myimg" height="300px" width="300px">
-		<h2 class="myname">GAYATRI</h2>
+
+	<div class="tablediv" align="center">
+		<table  width="90%" height="300px" >
+			<tr>
+				<td align="center"><img src="https://media.istockphoto.com/id/856599656/photo/passport-picture-of-a-smiling-turkish-businesswoman.jpg?s=612x612&w=0&k=20&c=dgETy-9neViQs7SATDTOOa80QOhVFcLIomBFRxWVN_8=" class="myimg" height="300px" width="300px">
+				</td>
+				<td align="center">
+					<p class="greetings">
+						hello my name is
+					</p>
+					<h2 class="myname gayatri">GAYATRI</h2>
+					<p class="greetings">I am a Full Stack Java Developer</p>
+					<a href="GayuuResume.pdf" download><button class="rsmbtn">RESUME</button></a>
+				</td>
+			</tr>
+			</div>
+		</table>
 	</div>
+	<div class="careerobj" align="center">
+		<h1 class="sections">ABOUT</h1>
+		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div align="center" class="skillssec">
+		<h1 class="sections" align="center">SKILLS</h1>
+		<table  width="80%" height="150px" class="skltbl" >
+			<tr valign="top" align="center">
+				<td width="34%">
+					<span class="skillsheading">Languages</span>
+					<p class="skillsp">Core Java, Python, SQL, C, C++, HTML, CSS, php, XML, JSON, JavaScript</p>
+				</td>
+				<td width="34%">
+					<span class="skillsheading">API & Frameworks</span>
+					<p class="skillsp">ReactJs,NodeJS, Rest, Soap, Spring, SpringBoot, Spring Core, Spring MVC,Collection</p>
+				</td>
+				<td>
+					<span class="skillsheading">Operating System</span>
+					<p class="skillsp">Windows, Linux, Ubuntu, Unix,iOs,Android</p>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="Projects" align="center">
+		<h1 class="sections">PROJECTS</h1>
+		<div >
+			<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <img src="https://c4.wallpaperflare.com/wallpaper/854/214/410/accounting-black-budget-calculating-wallpaper-preview.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Calculator</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQrGy_pwV6_6YJGe_SlozM5yLpcyOdWJmEaw&usqp=CAU" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Clock</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Spotify clone</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0SXTE0-GefNbnf6473Mmmz9f-oALhAwtD7Q&usqp=CAU" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Snake game</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+		</div>
+	</div>
+	<div class="Contact" align="center">
+		<h1 class="sections">CONTACT</h1>
+		<div>
+			<table width="90%" align="center">
+				<tr>
+					<td width="50%" align="center">
+						<span class="skillsheading">Contact Info</span>
+						<p> incon inserted here</p>
+					</td>				
+					<td align="center" valign="top">
+						<span class="skillsheading">Enquiry</span>
+						<div>
+							
+									<form>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer01">First name</label>
+      <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationServer02">Last name</label>
+      <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer03">City</label>
+      <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+      <div id="validationServer03Feedback" class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer04">State</label>
+      <select class="custom-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+        <option selected disabled value="">Choose...</option>
+        <option>...</option>
+      </select>
+      <div id="validationServer04Feedback" class="invalid-feedback">
+        Please select a valid state.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer05">Zip</label>
+      <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+      <div id="validationServer05Feedback" class="invalid-feedback">
+        Please provide a valid zip.
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+      <label class="form-check-label" for="invalidCheck3">
+        Agree to terms and conditions
+      </label>
+      <div  id="invalidCheck3Feedback" class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+
+						</div>
+
+					</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+
 </body>
 </html>
